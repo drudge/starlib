@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/qri-io/starlib/util"
+	"github.com/drudge/starlib/util"
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 )

@@ -3,7 +3,7 @@ package yaml
 import (
 	"sync"
 
-	"github.com/qri-io/starlib/util"
+	"github.com/drudge/starlib/util"
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
 	"gopkg.in/yaml.v2"

@@ -229,13 +229,13 @@ type starlarkMethod func(_ *starlark.Thread, b *starlark.Builtin, args starlark.
 
 func attrNoImplDataframe(attrName string) dataframeAttrImpl {
 	return func(*DataFrame) (starlark.Value, error) {
-		return nil, fmt.Errorf("dataframe.%s is not implemented. If you need this functionality to exist, file an issue at 'https://github.com/qri-io/starlib/issues' with the title 'dataframe.%s needs implementation'. Please first search if an issue exists already", attrName, attrName)
+		return nil, fmt.Errorf("dataframe.%s is not implemented. If you need this functionality to exist, file an issue at 'https://github.com/drudge/starlib/issues' with the title 'dataframe.%s needs implementation'. Please first search if an issue exists already", attrName, attrName)
 	}
 }
 
 func methNoImpl(methodName string) starlarkMethod {
 	return func(_ *starlark.Thread, b *starlark.Builtin, args starlark.Tuple, kwargs []starlark.Tuple) (starlark.Value, error) {
-		return nil, fmt.Errorf("dataframe.%s is not implemented. If you need this functionality to exist, file an issue at 'https://github.com/qri-io/starlib/issues' with the title 'dataframe.%s needs implementation'. Please first search if an issue exists already", methodName, methodName)
+		return nil, fmt.Errorf("dataframe.%s is not implemented. If you need this functionality to exist, file an issue at 'https://github.com/drudge/starlib/issues' with the title 'dataframe.%s needs implementation'. Please first search if an issue exists already", methodName, methodName)
 	}
 }
 

@@ -193,7 +193,7 @@ func TestDataframeNotImplemented(t *testing.T) {
 	if err == nil {
 		t.Fatal("error expected, did not get one")
 	}
-	expectErr := `dataframe.ffill is not implemented. If you need this functionality to exist, file an issue at 'https://github.com/qri-io/starlib/issues' with the title 'dataframe.ffill needs implementation'. Please first search if an issue exists already`
+	expectErr := `dataframe.ffill is not implemented. If you need this functionality to exist, file an issue at 'https://github.com/drudge/starlib/issues' with the title 'dataframe.ffill needs implementation'. Please first search if an issue exists already`
 	if err.Error() != expectErr {
 		t.Errorf("error mismatch\nwant: %s\ngot: %s", expectErr, err)
 	}

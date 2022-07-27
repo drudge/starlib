@@ -21,8 +21,8 @@ qri apply --file my_script.star
 
 ## Current Progress
 
-The source file [`dataframe_all_methods.go`](https://github.com/qri-io/starlib/blob/master/dataframe/dataframe_all_methods.go) lists every method in the reference implementation. Any method defined in terms of `methNoImpl` is not yet implemented, but is intended to be. Requests for prioritizing a method implementation can be done by [filing an issue](https://github.com/qri-io/starlib/issues). Methods that are defined in terms of `methMissing` are not planned to be added, because they do not fit within the starlark environment.
+The source file [`dataframe_all_methods.go`](https://github.com/drudge/starlib/blob/master/dataframe/dataframe_all_methods.go) lists every method in the reference implementation. Any method defined in terms of `methNoImpl` is not yet implemented, but is intended to be. Requests for prioritizing a method implementation can be done by [filing an issue](https://github.com/drudge/starlib/issues). Methods that are defined in terms of `methMissing` are not planned to be added, because they do not fit within the starlark environment.
 
 ## Examples
 
-A number of example usages can be found in the [testdata files](https://github.com/qri-io/starlib/tree/master/dataframe/testdata), along with expected output. Official documentation of each method is in progress.
+A number of example usages can be found in the [testdata files](https://github.com/drudge/starlib/tree/master/dataframe/testdata), along with expected output. Official documentation of each method is in progress.

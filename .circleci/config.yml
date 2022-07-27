@@ -2,7 +2,7 @@
 version: '2'
 jobs:
   build:
-    working_directory: /go/src/github.com/qri-io/starlib
+    working_directory: /go/src/github.com/drudge/starlib
     docker:
       - image: circleci/golang:latest
     environment:

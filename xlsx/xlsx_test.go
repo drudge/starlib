@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/qri-io/starlib/testdata"
+	"github.com/drudge/starlib/testdata"
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarktest"
 )

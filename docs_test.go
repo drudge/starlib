@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	outline "github.com/b5/outline/lib"
-	"github.com/qri-io/starlib/dataframe"
+	"github.com/drudge/starlib/dataframe"
 	"go.starlark.net/starlark"
 )
 

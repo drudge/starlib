@@ -5,7 +5,7 @@ import (
 
 	"github.com/paulmach/orb"
 	"github.com/paulmach/orb/geojson"
-	"github.com/qri-io/starlib/util"
+	"github.com/drudge/starlib/util"
 	"go.starlark.net/starlark"
 )
 
