@@ -286,6 +286,10 @@ func setBody(req *http.Request, body starlark.String, formData *starlark.Dict, f
 			req.Body = ioutil.NopCloser(strings.NewReader(form.Encode()))
 			req.ContentLength = int64(len(form.Encode()))
 
+			fmt.Println(form.Encode())
+			fmt.Println(len(form.Encode()))
+			fmt.Println(req.ContentLength)
+
 		case formEncodingMultipart:
 			var b bytes.Buffer
 			mw := multipart.NewWriter(&b)
